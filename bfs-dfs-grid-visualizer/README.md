@@ -28,25 +28,6 @@ Navigate to the project directory.
 
 Open the index.html file in a web browser.
 
-# Project Structure
-
-The project is organized into several components responsible for the visualization logic, algorithm implementation, and user interface.
-
-Example structure:
-
-project-folder
-│
-├── algorithms
-│   ├── bfs.js
-│   └── dfs.js
-│
-├── components
-│   └── grid.js
-│
-├── styles
-│   └── style.css
-│
-└── index.html
 
 # Algorithms Implemented
 
