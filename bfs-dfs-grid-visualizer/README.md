@@ -1,3 +1,5 @@
+# Visualization and Comparison of BFS and DFS in the “Number of Islands” Problem
+
 This project presents the design and implementation of an interactive application for the visualization and comparison of graph traversal algorithms, specifically Breadth-First Search (BFS) and Depth-First Search (DFS), applied to the classical “Number of Islands” problem.
 
 The problem is modeled using a two-dimensional grid where each cell represents a node in a graph. The application demonstrates how BFS and DFS explore connected components within the grid in order to detect and count islands. Through visualization, users can observe how each algorithm traverses the grid and understand the differences in their execution behavior.
