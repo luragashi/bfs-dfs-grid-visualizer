@@ -1,16 +1,56 @@
-# React + Vite
+This project presents the design and implementation of an interactive application for the visualization and comparison of graph traversal algorithms, specifically Breadth-First Search (BFS) and Depth-First Search (DFS), applied to the classical “Number of Islands” problem.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The problem is modeled using a two-dimensional grid where each cell represents a node in a graph. The application demonstrates how BFS and DFS explore connected components within the grid in order to detect and count islands. Through visualization, users can observe how each algorithm traverses the grid and understand the differences in their execution behavior.
 
-Currently, two official plugins are available:
+The main goal of this project is to provide a clear and intuitive way to study graph traversal algorithms and their application in grid-based problems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## React Compiler
+- Interactive grid-based visualization
+- Implementation of Breadth-First Search (BFS) and Depth-First Search (DFS)
+- Step-by-step exploration of the grid
+- Detection and counting of islands
+- Visual comparison of algorithm traversal behavior
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Technologies Used
 
-## Expanding the ESLint configuration
+- JavaScript
+- React
+- HTML
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to Run the Project
+Clone the repository:
+
+git clone https://github.com/your-username/repository-name.git
+
+Navigate to the project directory.
+
+Open the index.html file in a web browser.
+
+# Project Structure
+
+The project is organized into several components responsible for the visualization logic, algorithm implementation, and user interface.
+
+Example structure:
+
+project-folder
+│
+├── algorithms
+│   ├── bfs.js
+│   └── dfs.js
+│
+├── components
+│   └── grid.js
+│
+├── styles
+│   └── style.css
+│
+└── index.html
+
+# Algorithms Implemented
+
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+
+Both algorithms are applied to a grid-based graph representation to identify connected components representing islands.
